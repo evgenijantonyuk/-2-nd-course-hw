@@ -5,7 +5,7 @@
 }
 
 body {
-  margin: auto;
+  margin: 0 auto;
   font-family: "Montserrat", sans-serif;
   font-size: 16px;
 }
@@ -22,6 +22,10 @@ input::-moz-placeholder {
 
 input::placeholder {
   font-family: "Montserrat", sans-serif;
+}
+
+main {
+  background-color: #202027;
 }
 
 .center {
@@ -42,12 +46,21 @@ input::placeholder {
   line-height: 142%;
 }
 
+.title {
+  color: #fff;
+  font-family: Montserrat;
+  font-weight: 700;
+  font-size: 64px;
+  line-height: 100%;
+  letter-spacing: 0px;
+}
+
 .star__right-up {
   position: absolute;
   background-image: url("../images/right-up_el.png");
   background-repeat: no-repeat;
-  right: -160px;
-  width: 750px;
+  right: 0px;
+  width: 588px;
   height: 712px;
 }
 .star__big {
@@ -118,17 +131,19 @@ input::placeholder {
 }
 
 .line {
-  width: 100%;
-  width: 3500px;
+  padding-left: 20px;
 }
 .line__content {
+  width: 100vw;
   height: 90px;
+  overflow: auto;
   background-color: #BCEC30;
   display: flex;
   align-items: center;
   gap: 51px;
 }
 .line__text {
+  white-space: nowrap;
   text-transform: uppercase;
   font-family: Montserrat;
   font-weight: 700;
@@ -137,14 +152,56 @@ input::placeholder {
   letter-spacing: 4%;
 }
 .line__star {
-  display: inline-block;
-  background-image: url("../images/line-star.png");
-  background-repeat: no-repeat;
-  background-position: center;
   width: 35px;
   height: 35px;
 }
 
+.title_about {
+  padding-top: 100px;
+  margin-bottom: 32px;
+}
+
+.about__text {
+  max-width: 700px;
+  color: #fff;
+  font-family: Montserrat;
+  font-weight: 400;
+  font-size: 24px;
+  line-height: 32px;
+  letter-spacing: 0px;
+  margin-bottom: 72px;
+}
+.about__games {
+  display: flex;
+  flex-wrap: wrap;
+  gap: 32px;
+}
+.about__game {
+  min-width: 378px;
+  background-color: #fff;
+  border-radius: 32px;
+}
+.about__game-info {
+  padding: 32px 32px 36px 32px;
+}
+
+.title_mini-games {
+  color: #fff;
+}
+
 .footer {
+  min-height: 150px;
   background-color: #BDED35;
+  display: flex;
+  align-items: center;
+  justify-content: center;
+}
+
+.footer__text {
+  font-family: Montserrat;
+  font-weight: 600;
+  font-size: 24px;
+  line-height: 100%;
+  letter-spacing: 0px;
+  color: #000;
 }/*# sourceMappingURL=style.css.map */

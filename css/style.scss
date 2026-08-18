@@ -8,7 +8,7 @@
 }
 
 body {
-  margin: auto;
+  margin: 0 auto;
   font-family: "Montserrat", sans-serif;
   font-size: 16px;
 }
@@ -25,6 +25,10 @@ input::-moz-placeholder {
 
 input::placeholder {
   font-family: "Montserrat", sans-serif;
+}
+
+main {
+  background-color: $mainColor;
 }
 
 // Общие
@@ -45,15 +49,24 @@ input::placeholder {
     font-size: 24px;
     line-height: 142%;
 }
+
+.title {
+  color: #fff;
+  font-family: Montserrat;
+  font-weight: 700;
+  font-size: 64px;
+  line-height: 100%;
+  letter-spacing: 0px;
+}
 // Header
 .star {
   &__right-up {
     position: absolute;
     background-image: url('../images/right-up_el.png');
     background-repeat: no-repeat;
-    right: -160px;
-    width: 750px;
-    height: 712px
+    right: 0px;
+    width: 588px;
+    height: 712px;
   }
   &__big {
     position: absolute;
@@ -124,37 +137,32 @@ input::placeholder {
 }
 
 .line { 
-    width: 100%;
-    width: 3500px;
-    // overflow: hidden;
+  padding-left: 20px;
   &__content { 
+    width: 100vw;
     height: 90px;
+    overflow: auto; //  при создании JS скрипта прокрутки, изменить на hidden
     background-color: #BCEC30;
     display: flex;
     align-items: center;
     gap: 51px;
   }
-    &__text {
-      
-      text-transform: uppercase;
-      font-family: Montserrat;
-      font-weight: 700;
-      font-size: 30px;
-      line-height: 110%;
-      letter-spacing: 4%;
-    }
+  &__text {
+    white-space: nowrap;
+    text-transform: uppercase;
+    font-family: Montserrat;
+    font-weight: 700;
+    font-size: 30px;
+    line-height: 110%;
+    letter-spacing: 4%;
+  }
    &__star {
-    display: inline-block;
-    background-image: url('../images/line-star.png');
-    background-repeat: no-repeat;
-    background-position: center;
     width: 35px;
     height: 35px; 
-   }
+  }
 }
 // Main
+@import './about';
+@import './mini-games';
 // Footer
-.footer {
-  background-color: #BDED35;
-;
-}
+@import './footer';
