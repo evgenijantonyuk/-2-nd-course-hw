@@ -141,8 +141,8 @@ main {
 }
 
 .line {
-  padding-left: 20px;
   &__content {
+    padding-left: 20px;
     width: 100vw;
     height: 90px;
     overflow: auto; //  при создании JS скрипта прокрутки, изменить на hidden

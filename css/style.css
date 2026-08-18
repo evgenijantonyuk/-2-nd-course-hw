@@ -135,10 +135,8 @@ main {
   margin-bottom: 156px;
 }
 
-.line {
-  padding-left: 20px;
-}
 .line__content {
+  padding-left: 20px;
   width: 100vw;
   height: 90px;
   overflow: auto;
