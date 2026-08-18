@@ -1,0 +1,150 @@
+* {
+  margin: 0;
+  padding: 0;
+  box-sizing: border-box;
+}
+
+body {
+  margin: auto;
+  font-family: "Montserrat", sans-serif;
+  font-size: 16px;
+}
+
+a,
+input,
+button {
+  font-family: "Montserrat", sans-serif;
+}
+
+input::-moz-placeholder {
+  font-family: "Montserrat", sans-serif;
+}
+
+input::placeholder {
+  font-family: "Montserrat", sans-serif;
+}
+
+.center {
+  padding-left: calc(50% - 600px);
+  padding-right: calc(50% - 600px);
+}
+
+.button {
+  background: transparent;
+  border: none;
+  background-color: #202027;
+  color: #fff;
+  padding: 16px 65px;
+  border-radius: 65px;
+  font-family: Montserrat;
+  font-weight: 600;
+  font-size: 24px;
+  line-height: 142%;
+}
+
+.star__right-up {
+  position: absolute;
+  background-image: url("../images/right-up_el.png");
+  background-repeat: no-repeat;
+  right: -160px;
+  width: 750px;
+  height: 712px;
+}
+.star__big {
+  position: absolute;
+  background-image: url("../images/star-big.png");
+  background-repeat: no-repeat;
+  width: 83px;
+  height: 83px;
+  top: 568px;
+  right: 344px;
+}
+.star__midlle-green {
+  position: absolute;
+  background-image: url("../images/star-middle-green.png");
+  background-repeat: no-repeat;
+  width: 57px;
+  height: 57px;
+  left: 63px;
+  top: 94px;
+}
+.star__small-green {
+  position: absolute;
+  background-image: url("../images/Star-small-green.png");
+  background-repeat: no-repeat;
+  width: 37px;
+  height: 37px;
+  top: 538px;
+  right: 455px;
+}
+.star__small-transparent {
+  position: absolute;
+  background-image: url("../images/Star-small-transparent.png");
+  background-repeat: no-repeat;
+  width: 35px;
+  height: 35px;
+  top: 69px;
+  left: 156px;
+}
+
+.header {
+  position: relative;
+  background-color: #E1FF8F;
+}
+.header__content {
+  padding-top: 196px;
+  padding-left: 120px;
+}
+.header__title {
+  margin-bottom: 24px;
+  max-width: 775px;
+  font-family: Montserrat;
+  font-weight: 700;
+  font-size: 64px;
+  line-height: 122%;
+  letter-spacing: 0px;
+}
+.header__text {
+  margin-bottom: 48px;
+  width: 720px;
+  font-family: Montserrat;
+  font-weight: 400;
+  font-size: 24px;
+  line-height: 32px;
+  letter-spacing: 0px;
+}
+.header__button {
+  margin-bottom: 156px;
+}
+
+.line {
+  width: 100%;
+  width: 3500px;
+}
+.line__content {
+  height: 90px;
+  background-color: #BCEC30;
+  display: flex;
+  align-items: center;
+  gap: 51px;
+}
+.line__text {
+  text-transform: uppercase;
+  font-family: Montserrat;
+  font-weight: 700;
+  font-size: 30px;
+  line-height: 110%;
+  letter-spacing: 4%;
+}
+.line__star {
+  display: inline-block;
+  background-image: url("../images/line-star.png");
+  background-repeat: no-repeat;
+  background-position: center;
+  width: 35px;
+  height: 35px;
+}
+
+.footer {
+  background-color: #BDED35;
+}/*# sourceMappingURL=style.css.map */
