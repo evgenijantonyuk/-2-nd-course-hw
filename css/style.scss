@@ -52,6 +52,14 @@ main {
   font-weight: 600;
   font-size: 24px;
   line-height: 142%;
+  cursor: pointer;
+  transition: all .3s;
+}
+.button:hover {
+  background-color: #fff;
+  color: #000;
+  border: 1px solid #8C8C8C;
+;
 }
 
 .title {
@@ -111,11 +119,13 @@ main {
 }
 
 .header {
+  margin: 0 auto;
   position: relative;
   background-color: #e1ff8f;
   &__content {
     padding-top: 196px;
     padding-left: 120px;
+    padding-bottom: 173px;
   }
   &__title {
     margin-bottom: 24px;
@@ -127,7 +137,7 @@ main {
     letter-spacing: 0px;
   }
   &__text {
-    margin-bottom: 48px;
+    margin-bottom: 62px;
     max-width: 720px;
     font-family: Montserrat;
     font-weight: 400;
@@ -136,7 +146,7 @@ main {
     letter-spacing: 0px;
   }
   &__button {
-    margin-bottom: 156px;
+    border: none;
   }
 }
 
@@ -170,3 +180,4 @@ main {
 @import "./mini-games";
 // Footer
 @import "./footer";
+@import "./mobile";
