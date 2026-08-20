@@ -29,6 +29,7 @@
     background-color: #fff;
     border-radius: 32px;
     padding-bottom: 36px;
+    transition: transform .3s;
   }
   &__game-info {
     padding: 35px 32px 36px 44px;
@@ -72,4 +73,8 @@
     display: flex;
     flex-direction: column;
     justify-content: center;
+}
+
+.about__game:hover {
+    transform: scale(1.1);
 }
