@@ -188,7 +188,8 @@ main {
   margin-bottom: 72px;
 }
 .about__games {
-  margin-bottom: 142px;
+  align-self: start;
+  margin-bottom: 108px;
   display: flex;
   flex-wrap: wrap;
   gap: 32px;
@@ -236,6 +237,13 @@ main {
 
 .special {
   min-height: 512px;
+}
+
+.short {
+  margin-top: 32px;
+  display: flex;
+  flex-direction: column;
+  justify-content: center;
 }
 
 .title_mini-games {
