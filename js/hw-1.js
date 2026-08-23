@@ -1,9 +1,9 @@
 
 // 1
 let a = 10
-alert(a)
+alert(`Первоначальное значение - ${a}`)
 a = 20
-alert(a)
+alert(`Присвоенное значение - ${a}`)
 
 // 2
 const fistIponeYear = Number(2007)
@@ -23,20 +23,20 @@ let difference = var1 - var2
 let multiplication = var1 * var2
 let division = var1 / var2
 
-alert (sum)
-alert (difference)
-alert (multiplication)
-alert (division)
+alert (`Сумма - ${sum}`)
+alert (`Вычитание - ${difference}`)
+alert (`Умножение - ${multiplication}`)
+alert (`Деление - ${division}`)
 
 // 5
 let two = 2
 let result = two ** 5
-alert(result)
+alert(`Два в степени 5 - ${result}`)
 
 // 6
 let aA = 9
 let b = 2
-alert(aA % b)
+alert(`Остаток от деления равен - ${aA % b}`)
 
 // 7
 let num = 1
@@ -50,7 +50,7 @@ alert(num)
 
 // 8
 let age = prompt('Сколько вам лет?')
-alert(age)
+alert(`Возраст - ${age} лет.`)
 
 // 9
 const user = {
@@ -62,3 +62,21 @@ const user = {
 // 10
 let client = prompt('Как Ваше имя?')
 alert(`Привет, ${client}`)
+
+// ==================== Дополнительное задание
+let number = prompt('Загадайте любое число')
+
+let writtenNumber = number * 2
+alert(`Умножили на 2, получаем - ${writtenNumber}`)
+
+let writtenNumberPlusTen = writtenNumber + 10
+alert(`К результату добавим 10, получаем - ${writtenNumberPlusTen}`)
+
+let dividedNumber = writtenNumberPlusTen / 2
+alert(`Полученное число делим на 2, получаем -  ${dividedNumber}`)
+
+let resultNumber = dividedNumber - number
+alert(`Вычитаем загаданное число и получаем - ${resultNumber}`)
+
+alert(`Ответ равен ${resultNumber}`)
+
