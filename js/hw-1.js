@@ -49,3 +49,16 @@ num--
 alert(num)
 
 // 8
+let age = prompt('Сколько вам лет?')
+alert(age)
+
+// 9
+const user = {
+      name: 'John',
+      age: 31,
+      isAdmin: true
+}
+
+// 10
+let client = prompt('Как Ваше имя?')
+alert(`Привет, ${client}`)
