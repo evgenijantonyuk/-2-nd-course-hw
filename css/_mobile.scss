@@ -179,17 +179,17 @@
     margin-left: 56px;
     margin-right: 56px;
   }
-      .header__title {
-        line-height: 123%;
-        margin-bottom: 6px;
-        margin-bottom: 17px;
-        width: 260px;
+  .header__title {
+    line-height: 123%;
+    margin-bottom: 6px;
+    margin-bottom: 17px;
+    width: 260px;
+}
+  .header__text {
+    font-size: 16px;
+    line-height: 30px;
+    margin-bottom: 11px;
     }
-        .header__text {
-        font-size: 16px;
-        line-height: 30px;
-        margin-bottom: 11px;
-        }
 
   .star__small-green {
     top: 625px;
@@ -232,6 +232,12 @@
 .button__mini-games {
     width: 285px;
     font-size: 16px;
+}
+.footer {
+  height: 100px;
+}
+.footer__text {
+  font-size: 16px;
 }
 }
 
