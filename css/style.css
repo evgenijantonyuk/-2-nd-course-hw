@@ -414,12 +414,16 @@ main {
     background-repeat: no-repeat;
     width: 39px;
     height: 41px;
+    top: 470px;
+    right: 55px;
   }
   .star__small-green {
     background-image: url("../images/Star-small-green-mob.png");
     background-repeat: no-repeat;
     width: 18px;
     height: 18px;
+    top: 440px;
+    right: 123px;
   }
   .star__small-transparent {
     position: absolute;
@@ -492,12 +496,12 @@ main {
 }
 @media (max-width: 595px) {
   .star__big {
-    right: 34px;
-    top: 580px;
+    right: 44px;
+    top: 480px;
   }
   .star__small-green {
-    right: 86px;
-    top: 557px;
+    right: 117px;
+    top: 447px;
   }
   .star__midlle-green {
     top: 97px;
@@ -509,6 +513,10 @@ main {
   }
 }
 @media (max-width: 525px) {
+  .header {
+    display: flex;
+    justify-content: center;
+  }
   .header__content {
     padding-top: 148px;
     padding-bottom: 121px;
@@ -525,14 +533,14 @@ main {
   .header__text {
     font-size: 16px;
     line-height: 30px;
-    margin-bottom: 11px;
+    margin-bottom: 36px;
   }
   .star__small-green {
-    top: 625px;
+    top: 580px;
   }
   .star__big {
     right: 34px;
-    top: 652px;
+    top: 607px;
   }
   .mini-games__game {
     max-width: 342px;
