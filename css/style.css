@@ -450,7 +450,7 @@ main {
   }
   .header__text {
     font-size: 16px;
-    line-height: 30px;
+    line-height: 100%;
     margin-bottom: 26px;
     width: 296px;
     text-align: center;
@@ -532,15 +532,15 @@ main {
   }
   .header__text {
     font-size: 16px;
-    line-height: 30px;
+    line-height: 100%;
     margin-bottom: 36px;
   }
   .star__small-green {
-    top: 580px;
+    top: 555px;
   }
   .star__big {
-    right: 34px;
-    top: 607px;
+    right: 68px;
+    top: 581px;
   }
   .mini-games__game {
     max-width: 342px;
