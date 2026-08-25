@@ -4,14 +4,8 @@
     padding-left: 16px;
     padding-right: 16px;
   }
-  // .header__content {
-  //   text-align: center;
-  //   padding: 100px 56px;
-  // }
   .button {
-    width: 285px;
     font-size: 24px;
-    display: block;
   }
   .star__right-up {
     position: absolute;
@@ -99,7 +93,6 @@
     font-size: 16px;
     line-height: 100%;
     margin-bottom: 26px;
-    width: 296px;
     text-align: center;
   }
   .line__content {
@@ -178,9 +171,9 @@
     line-height: 123%;
     margin-bottom: 6px;
     margin-bottom: 17px;
-    width: 260px;
 }
   .header__text {
+    text-align: center;
     font-size: 16px;
     line-height: 100%;
     margin-bottom: 36px;
