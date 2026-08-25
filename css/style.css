@@ -356,6 +356,10 @@ main {
 }
 
 @media (max-width: 998px) {
+  .center {
+    padding-left: 35px;
+    padding-right: 35px;
+  }
   .about,
   .mini-games {
     padding-left: 16px;
@@ -363,6 +367,7 @@ main {
   }
   .button {
     font-size: 24px;
+    display: block;
   }
   .star__right-up {
     position: absolute;
@@ -382,6 +387,11 @@ main {
   }
   .about__star {
     display: none;
+  }
+  .header__content {
+    display: flex;
+    flex-direction: column;
+    align-items: center;
   }
   .button__mini-games {
     margin-bottom: 32px;
@@ -517,8 +527,6 @@ main {
     padding-top: 148px;
     padding-bottom: 121px;
     text-align: center;
-    margin-left: 56px;
-    margin-right: 56px;
   }
   .header__title {
     line-height: 123%;
