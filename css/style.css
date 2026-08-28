@@ -42,13 +42,6 @@ main {
   background: transparent;
   border: none;
   cursor: pointer;
-  transition: all 0.3s;
-}
-
-.button__mini-game:hover {
-  background-color: #fff;
-  color: #000;
-  border: 1px solid #8C8C8C;
 }
 
 .title {
@@ -142,6 +135,13 @@ main {
   font-weight: 600;
   font-size: 24px;
   line-height: 142%;
+  transition: all 0.3s;
+}
+
+.header__button:hover {
+  background-color: #fff;
+  color: #000;
+  border: 1px solid #8C8C8C;
 }
 
 .line__content {
@@ -270,6 +270,13 @@ main {
   font-weight: 600;
   font-size: 24px;
   line-height: 142%;
+  transition: all 0.3s;
+}
+
+.button__mini-games:hover {
+  background-color: #fff;
+  color: #000;
+  border: 1px solid #8C8C8C;
 }
 
 .mini-games__game:nth-child(odd) {
