@@ -41,19 +41,11 @@ main {
 .button {
   background: transparent;
   border: none;
-  background-color: #202027;
-  color: #fff;
-  padding: 16px 65px;
-  border-radius: 65px;
-  font-family: Montserrat;
-  font-weight: 600;
-  font-size: 24px;
-  line-height: 142%;
   cursor: pointer;
   transition: all 0.3s;
 }
 
-.button:hover {
+.button__mini-game:hover {
   background-color: #fff;
   color: #000;
   border: 1px solid #8C8C8C;
@@ -142,6 +134,14 @@ main {
 }
 .header__button {
   border: none;
+  background-color: #202027;
+  color: #fff;
+  padding: 16px 65px;
+  border-radius: 65px;
+  font-family: Montserrat;
+  font-weight: 600;
+  font-size: 24px;
+  line-height: 142%;
 }
 
 .line__content {
@@ -261,6 +261,15 @@ main {
 
 .button__mini-games {
   padding: 16px 75px;
+  background-color: transparent;
+  background-color: #202027;
+  color: #fff;
+  padding: 16px 65px;
+  border-radius: 65px;
+  font-family: Montserrat;
+  font-weight: 600;
+  font-size: 24px;
+  line-height: 142%;
 }
 
 .mini-games__game:nth-child(odd) {
@@ -277,7 +286,7 @@ main {
   background-color: #fff;
 }
 .mini-games__info {
-  max-width: 400px;
+  width: 100%;
   padding-left: 48px;
   padding-top: 48px;
 }
@@ -285,6 +294,7 @@ main {
   max-width: 600px;
 }
 .mini-games__title {
+  max-width: 570px;
   margin-bottom: 24px;
   font-family: Montserrat;
   font-weight: 700;
@@ -299,7 +309,7 @@ main {
   font-weight: 400;
   font-size: 24px;
   line-height: 32px;
-  letter-spacing: -1px;
+  letter-spacing: 0;
 }
 .mini-games__star-big {
   position: absolute;
@@ -319,7 +329,7 @@ main {
   right: 130px;
   top: 40px;
 }
-.mini-games__star-big_down {
+.mini-games__star-big-down {
   position: absolute;
   background-image: url("../images/mini-game-star-big.png");
   background-repeat: no-repeat;
@@ -328,7 +338,7 @@ main {
   right: 55px;
   bottom: 66px;
 }
-.mini-games__star-small_down {
+.mini-games__star-small-down {
   position: absolute;
   background-image: url("../images/mini-game-star-small.png");
   background-repeat: no-repeat;
