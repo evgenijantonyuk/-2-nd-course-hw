@@ -462,6 +462,12 @@ main {
     width: 35px;
     height: 35px;
   }
+  .mini-games__star-big-down {
+    display: none;
+  }
+  .mini-games__star-small-down {
+    display: none;
+  }
   .header__content {
     padding-top: 133px;
     padding-bottom: 106px;
